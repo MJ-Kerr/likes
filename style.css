@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 20px;
+}
+
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    padding: .5rem 1.5rem;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+}
+img {
+    width: 75%;
+}
+
+button {
+    background-color: yellow;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0);
+    border: 1px solid black;
+}
+
+main {
+    padding: 20px;
+}
+
+.cards {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.commentCard{
+    flex: 2;
+    border: 2px solid black;
+}
+
+
+.word {
+    padding: 20px;
+    
+}
+
+.comment {
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    border: 2px solid black;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+}
